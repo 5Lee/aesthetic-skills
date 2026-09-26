@@ -1,6 +1,6 @@
-# Creative Skills
+# 美学技能库 · Aesthetic Skills
 
-可复用的中文创作技能集合。将创作规则、提示词模板和执行流程整理为独立的 `SKILL.md`，方便按需安装和持续改进。
+面向图像创作与视觉设计的中文美学技能集合。将创作规则、提示词模板和执行流程整理为独立的 `SKILL.md`，方便按需安装和持续改进。
 
 ## 技能目录
 
@@ -10,7 +10,14 @@
 
 ## 安装
 
-下载本仓库，或在仓库发布后使用 Git 克隆。将需要的技能文件夹复制到你的 Codex 技能目录。以下命令在下载后的仓库根目录执行，适用于 macOS / Linux：
+下载本仓库，或使用 Git 克隆：
+
+```bash
+git clone https://github.com/5Lee/aesthetic-skills.git
+cd aesthetic-skills
+```
+
+将需要的技能文件夹复制到你的 Codex 技能目录。以下命令在下载后的仓库根目录执行，适用于 macOS / Linux：
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
