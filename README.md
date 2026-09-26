@@ -10,9 +10,9 @@
 
 ## 原图与头像案例
 
-已制作人物与宠物的对照案例，并记录原图、完整提示词、保留特征和实际偏差：
+新增周杰伦、Taylor Swift 彩色人物测试及宠物构图修订，记录原图、完整提示词、保留特征和实际偏差；未通过的猫头像单独标记：
 
-[查看 4 组对照案例](examples/minimal-robot-avatar/README.md) · [图片来源与许可](examples/minimal-robot-avatar/SOURCES.md)
+[查看当前人物与宠物测试](examples/minimal-robot-avatar/README.md) · [图片来源与许可](examples/minimal-robot-avatar/SOURCES.md)
 
 目标是保留照片中主体的脸型比例、发型/耳形、肤色/毛色分区和标志细节；不能只像同一类人物或同一犬种。无鼻嘴、统一眼形仍会损失部分辨识信息，不承诺所有主体都能一眼认出。
 

@@ -1,70 +1,138 @@
 [
   {
+    "id": "corgi",
+    "tool": "Codex built-in image generation",
+    "date": "2026-09-26",
+    "images": {
+      "avatar-v2.png": {
+        "bytes": 1121925,
+        "sha256": "74145c46d7c2b31321343c84c86ca85d5edad4f2e3ca34638c58583ea493e060"
+      },
+      "avatar.png": {
+        "bytes": 1002363,
+        "sha256": "a75c740972cb8f50073b53b2eecd22dab5202431b78ac7b0daf91d937591425d"
+      },
+      "reference.jpg": {
+        "bytes": 209878,
+        "sha256": "d73465923f3aebf5cc8663420ea244ada69f3644812adcfd025f2df7a0decf07"
+      }
+    },
+    "prompts": [
+      "prompt-v2.md",
+      "prompt.md",
+      "revision-prompt.md"
+    ],
+    "latest": "avatar-v2.png",
+    "latest_input": "avatar.png"
+  },
+  {
     "id": "einstein",
     "tool": "Codex built-in image generation",
     "date": "2026-09-26",
     "images": {
-      "reference.jpg": {
-        "bytes": 272552,
-        "sha256": "96b2bb5f11e3329a00b7d5a1ce6bc58854062f1fd003a27d33408ac019125841"
-      },
       "avatar.png": {
         "bytes": 1087480,
         "sha256": "a4aca3dd67a79bd3a369fe0bbdd80cb2e816877e2f8a450c7020bc4ddeed76c4"
+      },
+      "reference.jpg": {
+        "bytes": 272552,
+        "sha256": "96b2bb5f11e3329a00b7d5a1ce6bc58854062f1fd003a27d33408ac019125841"
       }
     },
-    "prompt": "prompt.md",
-    "revision_prompt": null
+    "prompts": [
+      "prompt.md"
+    ],
+    "latest": "avatar.png"
+  },
+  {
+    "id": "jay-chou",
+    "tool": "Codex built-in image generation",
+    "date": "2026-09-26",
+    "images": {
+      "avatar-initial.png": {
+        "bytes": 1080664,
+        "sha256": "d1fd6dafa39ea029e7a4efb928028ab3a9e44582077e7eede561b5d131aafb7a"
+      },
+      "avatar.png": {
+        "bytes": 1064592,
+        "sha256": "7bdead34a082a2eed0e8f6cf8f693fdb715bafe195d5ba12bcbfbf09296e1714"
+      },
+      "reference.jpg": {
+        "bytes": 384398,
+        "sha256": "9ee903ef91385d536d5c90ec7ecdde67cb77c00ac50580f03637bec1fbfedb2e"
+      }
+    },
+    "prompts": [
+      "prompt.md",
+      "revision-prompt.md"
+    ],
+    "latest": "avatar.png",
+    "review": "visual traits partly preserved; individual recognizability not established"
   },
   {
     "id": "mae-jemison",
     "tool": "Codex built-in image generation",
     "date": "2026-09-26",
     "images": {
-      "reference.jpg": {
-        "bytes": 215350,
-        "sha256": "4075e06e1eb1a0ed8c7b6ccf34ed41eff8ca1a9c0d911e80d76f68802c74bf70"
-      },
       "avatar.png": {
         "bytes": 1037641,
         "sha256": "9a8d3801468e86549d0159eaf59eb4f579d29930601dbbb4e1519f31ca3c2262"
+      },
+      "reference.jpg": {
+        "bytes": 215350,
+        "sha256": "4075e06e1eb1a0ed8c7b6ccf34ed41eff8ca1a9c0d911e80d76f68802c74bf70"
       }
     },
-    "prompt": "prompt.md",
-    "revision_prompt": null
+    "prompts": [
+      "prompt.md"
+    ],
+    "latest": "avatar.png"
+  },
+  {
+    "id": "taylor-swift",
+    "tool": "Codex built-in image generation",
+    "date": "2026-09-26",
+    "images": {
+      "avatar.png": {
+        "bytes": 1255245,
+        "sha256": "0b6be15f8e951614c4b0d0299d56437bb0664035127b9ef1c924d94a8214de12"
+      },
+      "reference.png": {
+        "bytes": 446752,
+        "sha256": "d5cb6807e3f5ec078589810ecb3d222d1dc90da3ded9c302a9ad599ae993a066"
+      }
+    },
+    "prompts": [
+      "prompt.md"
+    ],
+    "latest": "avatar.png",
+    "review": "visual traits partly preserved; individual recognizability not established"
   },
   {
     "id": "tuxedo-cat",
     "tool": "Codex built-in image generation",
     "date": "2026-09-26",
     "images": {
-      "reference.jpg": {
-        "bytes": 111867,
-        "sha256": "c712191551dcb9cd0d39fbdb46fe46a9b0e438b6e1d1d7cd6b4b6c29f51e31f4"
+      "avatar-v2.png": {
+        "bytes": 1048432,
+        "sha256": "b10192637a1841c49c04fde5178f2729605e56f906542b1235477da0a9d84473"
       },
       "avatar.png": {
         "bytes": 1063142,
         "sha256": "3e565e91f2326bf52efa79b4557bd066fb0854eef7dc62be310a51691181f2b0"
-      }
-    },
-    "prompt": "prompt.md",
-    "revision_prompt": "revision-prompt.md"
-  },
-  {
-    "id": "corgi",
-    "tool": "Codex built-in image generation",
-    "date": "2026-09-26",
-    "images": {
-      "reference.jpg": {
-        "bytes": 209878,
-        "sha256": "d73465923f3aebf5cc8663420ea244ada69f3644812adcfd025f2df7a0decf07"
       },
-      "avatar.png": {
-        "bytes": 1002363,
-        "sha256": "a75c740972cb8f50073b53b2eecd22dab5202431b78ac7b0daf91d937591425d"
+      "reference.jpg": {
+        "bytes": 111867,
+        "sha256": "c712191551dcb9cd0d39fbdb46fe46a9b0e438b6e1d1d7cd6b4b6c29f51e31f4"
       }
     },
-    "prompt": "prompt.md",
-    "revision_prompt": "revision-prompt.md"
+    "prompts": [
+      "prompt-v2.md",
+      "prompt.md",
+      "revision-prompt.md"
+    ],
+    "latest": "avatar-v2.png",
+    "latest_input": "reference.jpg",
+    "review": "failed: feline proportions, chin marking and tilt"
   }
 ]

@@ -17,3 +17,14 @@
 - `corgi/avatar.png` 为 Marsiyanka 原照片的 AI 改编，保留署名与来源链接，改编贡献采用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 分享。该许可仅适用于这组图片及其改编，不自动适用于整个仓库。
 - 其他来源照片保持各自原有权利状态；AI 结果不能反过来改变原照片的权利状态。
 - 示例没有采用本次对话中用户上传的私人照片。
+
+## 新增彩色人物与第二轮宠物测试
+
+| 文件 | 来源与作者 | 许可 | 修改 |
+| --- | --- | --- | --- |
+| `jay-chou/reference.jpg` | [Jay Chou in Shanghai 2023 (3)](https://commons.wikimedia.org/wiki/File:Jay_Chou_in_Shanghai_2023_(3).jpg)，Play大明星 视频画面，Nkon21 调整 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | 下载来源版本；`avatar.png` 为 AI 风格改编，简化五官、发型和服装，重新构图与配色背景 |
+| `taylor-swift/reference.png` | [Taylor Swift at the 2023 MTV Video Music Awards 4](https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_4.png)，iHeartRadioCA | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Wikimedia 500 px 宽缩略图；`avatar.png` 为 AI 风格改编，简化五官、发型和服装，重新构图与配色背景 |
+
+人物图片仅作风格转换测试，无任何代言含义。上述生成版本保留原照片署名、来源与许可说明。
+
+`tuxedo-cat/avatar-v2.png` 重新以原始猫照片生成；`corgi/avatar-v2.png` 以本目录上一版 `avatar.png` 为编辑输入，修改裁切和延伸感；提示词见各自 `prompt-v2.md`。柯基第二版同样是 Marsiyanka 原照片的改编，改编贡献采用 CC BY-SA 3.0。猫第二版仍存在物种轮廓和倾角偏差，保留为未通过测试。
