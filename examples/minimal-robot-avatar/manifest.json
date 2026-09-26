@@ -1,0 +1,70 @@
+[
+  {
+    "id": "einstein",
+    "tool": "Codex built-in image generation",
+    "date": "2026-09-26",
+    "images": {
+      "reference.jpg": {
+        "bytes": 272552,
+        "sha256": "96b2bb5f11e3329a00b7d5a1ce6bc58854062f1fd003a27d33408ac019125841"
+      },
+      "avatar.png": {
+        "bytes": 1087480,
+        "sha256": "a4aca3dd67a79bd3a369fe0bbdd80cb2e816877e2f8a450c7020bc4ddeed76c4"
+      }
+    },
+    "prompt": "prompt.md",
+    "revision_prompt": null
+  },
+  {
+    "id": "mae-jemison",
+    "tool": "Codex built-in image generation",
+    "date": "2026-09-26",
+    "images": {
+      "reference.jpg": {
+        "bytes": 215350,
+        "sha256": "4075e06e1eb1a0ed8c7b6ccf34ed41eff8ca1a9c0d911e80d76f68802c74bf70"
+      },
+      "avatar.png": {
+        "bytes": 1037641,
+        "sha256": "9a8d3801468e86549d0159eaf59eb4f579d29930601dbbb4e1519f31ca3c2262"
+      }
+    },
+    "prompt": "prompt.md",
+    "revision_prompt": null
+  },
+  {
+    "id": "tuxedo-cat",
+    "tool": "Codex built-in image generation",
+    "date": "2026-09-26",
+    "images": {
+      "reference.jpg": {
+        "bytes": 111867,
+        "sha256": "c712191551dcb9cd0d39fbdb46fe46a9b0e438b6e1d1d7cd6b4b6c29f51e31f4"
+      },
+      "avatar.png": {
+        "bytes": 1063142,
+        "sha256": "3e565e91f2326bf52efa79b4557bd066fb0854eef7dc62be310a51691181f2b0"
+      }
+    },
+    "prompt": "prompt.md",
+    "revision_prompt": "revision-prompt.md"
+  },
+  {
+    "id": "corgi",
+    "tool": "Codex built-in image generation",
+    "date": "2026-09-26",
+    "images": {
+      "reference.jpg": {
+        "bytes": 209878,
+        "sha256": "d73465923f3aebf5cc8663420ea244ada69f3644812adcfd025f2df7a0decf07"
+      },
+      "avatar.png": {
+        "bytes": 1002363,
+        "sha256": "a75c740972cb8f50073b53b2eecd22dab5202431b78ac7b0daf91d937591425d"
+      }
+    },
+    "prompt": "prompt.md",
+    "revision_prompt": "revision-prompt.md"
+  }
+]
