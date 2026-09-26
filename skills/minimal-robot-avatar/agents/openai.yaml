@@ -1,0 +1,4 @@
+interface:
+  display_name: "极简机器人头像"
+  short_description: "将人物照片、插画或文字角色转为可辨认的极简胶囊眼机器人头像"
+  default_prompt: "使用 $minimal-robot-avatar，把我提供的角色制作成极简胶囊眼机器人头像。"
