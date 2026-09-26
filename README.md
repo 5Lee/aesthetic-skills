@@ -35,6 +35,8 @@ cp -R skills/minimal-robot-avatar "${CODEX_HOME:-$HOME/.codex}/skills/"
 
 > 使用 $minimal-robot-avatar，把这张照片转成极简机器人头像，保留发型和眼镜。
 
+构图默认从左下探入，也支持居中、从右向左探入和自定义倾斜或视角。例如：“居中，头摆正”或“从右边探入，逆时针倾斜 25 度”。鼻子和嘴巴仍默认省略。
+
 也支持纯文字创作：
 
 > 使用 $minimal-robot-avatar，设计一个银白色脸、橙色短发、蓝色耳机的机器人头像。
